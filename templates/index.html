@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loch scan</title>
+    <link rel="stylesheet" href="../static/style.css" />
+    <!-- Link for the jquery framework -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Link for my icons at iconsax -->
+    <script src="//glenthemes.github.io/iconsax/geticons.js"></script>
+    <link href="//glenthemes.github.io/iconsax/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="load">
+      <img src="../static/assets/full-logo.png" height="80px" class="logo-loading" />
+      <div class="dna" style="--total: 13">
+        <div class="strand" style="--index: 1">
+          <div class="strand__node"></div>
+          <div class="strand__node"></div>
+        </div>
+        <div class="strand" style="--index: 2">
+          <div class="strand__node"></div>
+          <div class="strand__node"></div>
+        </div>
+        <div class="strand" style="--index: 3">
+          <div class="strand__node"></div>
+          <div class="strand__node"></div>
+        </div>
+        <div class="strand" style="--index: 4">
+          <div class="strand__node"></div>
+          <div class="strand__node"></div>
+        </div>
+        <div class="strand" style="--index: 5">
+          <div class="strand__node"></div>
+          <div class="strand__node"></div>
+        </div>
+        <div class="strand" style="--index: 6">
+          <div class="strand__node"></div>
+          <div class="strand__node"></div>
+        </div>
+        <div class="strand" style="--index: 7">
+          <div class="strand__node"></div>
+          <div class="strand__node"></div>
+        </div>
+        <div class="strand" style="--index: 8">
+          <div class="strand__node"></div>
+          <div class="strand__node"></div>
+        </div>
+        <div class="strand" style="--index: 9">
+          <div class="strand__node"></div>
+          <div class="strand__node"></div>
+        </div>
+        <div class="strand" style="--index: 10">
+          <div class="strand__node"></div>
+          <div class="strand__node"></div>
+        </div>
+        <div class="strand" style="--index: 11">
+          <div class="strand__node"></div>
+          <div class="strand__node"></div>
+        </div>
+        <div class="strand" style="--index: 12">
+          <div class="strand__node"></div>
+          <div class="strand__node"></div>
+        </div>
+        <div class="strand" style="--index: 13">
+          <div class="strand__node"></div>
+          <div class="strand__node"></div>
+        </div>
+      </div>
+      <div class="loadbar"><div class="loadprogress"></div></div>
+    </div>
+
+    <!-- Markup for the welcome screen -->
+    <div class="welcome">
+      <img src="./assets/logo-white.png" class="logo" />
+      <div class="logo-txt">Lochscan</div>
+      <div class="btn-section">
+        <button id="signupBtn">Sign up</button>
+        <button id="loginBtn">Login</button>
+      </div>
+    </div>
+
+    <!-- Markup for the info pictures -->
+
+    <div class="info-page">
+      <img src="../static/assets/vector Loading.png" />
+      <div class="btn-section">
+        <button id="next">
+          Next <i class="iconsax" icon-name="chevron-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Markup for the Homepage -->
+    <div class="homepage">
+      <header>
+        <h1>Lochscan</h1>
+        <nav>
+          <div class="notif-icon">
+            <i class="iconsax" icon-name="bell-2"></i>
+          </div>
+          <div class="profile-pic"><img src="../static/assets/woman.png" /></div>
+        </nav>
+      </header>
+      <section class="function-list">
+        <h4>Welcome Fasakin Henry</h4>
+        <div class="functions">
+          <div class="function-box">
+            <div class="function-icon">
+              <i class="iconsax" icon-name="globe"></i>
+            </div>
+            <div class="function-text">Website</div>
+          </div>
+
+          <div class="function-box">
+            <div class="function-icon">
+              <i class="iconsax" icon-name="profile-card"></i>
+            </div>
+            <div class="function-text">Contact</div>
+          </div>
+
+          <div class="function-box">
+            <div class="function-icon">
+              <i class="iconsax" icon-name="money-4"></i>
+            </div>
+            <div class="function-text">Account</div>
+          </div>
+
+          <div class="function-box">
+            <div class="function-icon">
+              <i class="iconsax" icon-name="driver-refresh"></i>
+            </div>
+            <div class="function-text">Recharge</div>
+          </div>
+
+          <div class="function-box">
+            <div class="function-icon">
+              <i class="iconsax" icon-name="ticket-1"></i>
+            </div>
+            <div class="function-text">Tickets</div>
+          </div>
+        </div>
+      </section>
+      <!-- Main section of the homepage -->
+      <main>
+        <div class="service-section">
+          <aside>Your history</aside>
+          <div class="service-box">
+            <div class="service-name">Mtn Number</div>
+            <div class="service-scan">13</div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-name">Mtn Number</div>
+            <div class="service-scan">13</div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-name">Mtn Number</div>
+            <div class="service-scan">13</div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <!-- Styles for the page footer -->
+    <footer>
+      <div class="menu active">
+        <div class="icon"><i class="iconsax" icon-name="birdhouse"></i></div>
+        <div class="icon-name">Home</div>
+      </div>
+
+      <div class="menu">
+        <div class="icon">
+          <i class="iconsax" icon-name="scan-1"></i>
+        </div>
+        <div class="icon-name">Scan</div>
+      </div>
+
+      <div class="menu">
+        <div class="icon"><i class="iconsax" icon-name="qr-code"></i></div>
+        <div class="icon-name">Generate</div>
+      </div>
+
+      <div class="menu">
+        <div class="icon"><i class="iconsax" icon-name="nut"></i></div>
+        <div class="icon-name">Settings</div>
+      </div>
+    </footer>
+    <script src="../static/loader.js"></script>
+  </body>
+</html>
